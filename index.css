@@ -1,0 +1,38 @@
+
+.navbar {
+    background-color: black; 
+}
+.nav-link {
+    color:white;
+}
+
+.navbar-brand img {
+    filter: invert(1); 
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.btn-outline-light {
+    border-radius: 0;
+}
+
+.nav-item i {
+    font-size: 1.2rem;
+}
+
+.navbar-toggler {
+    border-color:grey;
+}
+.cover{
+    position: relative;
+}
+.welcome{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 40px;
+    left: 1400px;
+    top: 500px;
+
+}
