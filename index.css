@@ -228,4 +228,25 @@
             text-decoration: none;
     
          }
+         footer{
+            display: flex;
+        }
+        
+        footer a{
+            text-decoration: none;
+            color: rgb(162, 162, 162);
+            font-size: small;
+        }
+        footer h6{
+            font-weight: bold;
+        }
+        footer  a:hover{
+            color: white;
+        }
+        footer img{
+            padding: 5px;
+            margin-bottom: 5px;
+        }
+        
+        
          
