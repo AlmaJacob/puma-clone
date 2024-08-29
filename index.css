@@ -85,6 +85,11 @@
 .op .btn{
     background-color: rgba(223,213,207,255);
 }
+.pic1 img{
+    height: 650px;
+    width: 650px;
+    /* width: 670px; */
+}
 .suede_dtl{
     position: absolute;
     top: 20px;
@@ -107,7 +112,7 @@
     }
     .pic1{
         position: absolute;
-        right: 250px;
+        right: 50%;
         top: -50px;
     }
     .pic2{
@@ -186,16 +191,12 @@
             font-size: 32px;
             top: -50px;
         }
-        .pics1{
-            position: absolute;
-            right: 250px;
-            top: -50px;
-        }
-        .pics2{
+ 
+        /* .pics2{
             position: absolute;
             top: 150px;
             left: 350px;
-        }
+        } */
         .shoes{
             display: flex;
             width: 100%;
@@ -273,7 +274,7 @@
         
         @media only screen and (max-width: 578px) {
             .welcome{
-                top: 21%;
+                top: 10%;
                 left: 3%;
             }
             .welcome p{
@@ -343,11 +344,10 @@
                 font-size: 3vw;
 
              }
-            .pic1{
-                right: 0px;
-            }
-            .pics1{
-                right: 0px;
+            .pic1 img{
+                height: 350px;
+                /* width: 100%; */
+                width: 470px;
             }
             .suede_dtl1 h2{
                 font-size: 2vw;
@@ -361,10 +361,7 @@
             font-size: 2vw;
 
         }
-        .suede_dtl1{
-            
-            top: 95%;
-        }
+
         .suede_dtl h2{
             font-size: 2vw;
 
@@ -378,15 +375,17 @@
 
     }
     .suede_dtl{
-        
-        top: 95%;
+        right: 5%;
+        top: 38%;
     }
-
-
         .g3 img{
             height:300px ;
             width: 300px;
         
+        }
+        .pic1{
+            right: 0%;
+            top: 0%;
         }
     }
     
